@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="container fluid" ng-repeat="question in questions">
+        <button class="btn btn-danger col-sm-12 question" ng-click="openQuestion(question.id)">{{question.title}}</button>              
+    </div>
+    <div class="container fluid">
+        <button class="btn btn-success col-sm-12 question" ng-click="openSearch()">Ask a Question!</button>
+    </div>
+</div>
